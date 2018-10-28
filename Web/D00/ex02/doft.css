@@ -1,0 +1,178 @@
+* {
+    margin:              1px;
+    padding:             0;
+	border:              0;
+	text-decoration:     none;
+}
+
+html {
+    background-color: rgb(80, 80, 80);
+}
+
+.header {
+  
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 1%;
+    width: 1420px;
+    height: 130px;
+    background-color: rgb(145, 145, 145);
+    border-radius: 10px;
+    box-shadow : 10px 10px 10px Black;
+}
+
+.day-of-42 {
+    height: 115px;
+    width: 420px;
+    margin: 8px;
+}
+
+.reload {  
+    width: 1.5%;
+    position: absolute;
+    left: 97.5%;
+    bottom: 76%;
+}
+
+.close {
+    width: 1.5%;
+    position: absolute;
+    left: 97.5%;
+    top: 76%;
+}
+
+.magnifying-glass {
+    margin : 0.5%;
+    height: 110%;
+    position: absolute;
+    left: 79.5%;
+}
+
+.body {
+/*  border : 1px solid black;*/
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 170px;
+    width: 1365px;
+    height: 585px;
+}
+
+.left {
+    width: 140px;
+    height: 425px;
+    background-color: rgb(145, 145, 145);
+    border-radius: 10px;
+    box-shadow : 10px 10px 10px Black;  
+}
+
+.middle {
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 585px;
+    width: 1035px;
+    border: 10px solid rgb(145, 145, 145);
+    background-color: rgb(145, 145, 145);
+    border-radius: 10px;
+    box-shadow : 10px 10px 10px Black;
+}
+
+.middle img {
+    width: 1035px;
+}
+
+.right {
+    background-color: rgb(145, 145, 145);
+    width: 140px;
+    height: 425px;
+    border-radius: 10px;
+    box-shadow : 10px 10px 10px Black;
+}
+
+.icon-left img {
+    width: 75px;
+    height: 65px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px   
+}
+
+#oeil {
+    border: 5px solid Red;
+    border-radius : 5px;
+}
+
+#book {
+    height: 80px;
+    width: 60px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+#towel {
+    height: 40px;
+    width: 60px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+#wall {
+    height : 70px;
+    width: 100px;
+    background: url(resources/brick.jpg) repeat;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.green-box{
+    position: absolute;
+    width: 525px;
+    height: 165px;
+    background-color: rgb(140, 253, 142);
+    top: 500px;
+    left: -80px;
+    border-radius : 10px;
+    box-shadow : 10px 10px 10px Black;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-left : 10px;
+    padding-top : 10px;
+}
+
+#entrez{
+    font-family: serif;
+    font-size: 30px;
+}
+
+#barre {
+    height: 15px;
+    width: 380px;
+    box-shadow : 1px 1px 1px grey inset;
+
+}
+
+#button {
+    height: 15px;
+    width: 80px;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid blurywood;
+    padding-bottom: 8px;
+    border-radius: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

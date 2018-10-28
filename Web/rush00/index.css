@@ -1,0 +1,172 @@
+*
+{
+    margin:              0.3%;
+    padding:             0;
+    text-decoration:     none; 
+}
+
+h1
+{
+    font-size: 50px;
+    font-family: 'Covered By Your Grace', sans-serif;
+	color: #41292C;
+}
+
+H2
+{
+    text-align: center;
+	font-family: 'Covered By Your Grace', sans-serif;
+	font-size: 45px;
+	color: #41292C;
+}
+
+html
+{
+    font-family: Verdana, sans-serif;
+    background-color:  floralwhite;
+}
+
+.titre-site
+{
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.sign {
+    text-align: center;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	color: #41292C;
+}
+
+hr
+{
+    color: sienna;
+    background-color: sienna;
+    height: 2px;
+	border: none;
+	margin-left : 2%;
+	margin-right : 2%;
+}
+
+.category2
+{
+    text-align: center;
+    background-color: white;
+    border: 2px solid sienna;
+    color: sienna;
+    margin: 10px;
+    padding: 10px;
+	border-radius: 10px;
+}
+
+.category
+{
+    text-align: center;
+    background-color: sienna;
+    border: 2px solid white;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+	border-radius: 10px;
+}
+
+.product
+{
+    display: table-cell;
+    width :100%;
+}
+
+.button_buy
+{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid grey;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+/*
+.span
+{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid grey;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 2px;
+    box-shadow: 2px 2px 1px cyan;
+}
+}
+
+.button_buy:hover span
+{
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 2px 2px 1px red;
+}
+*/
+
+.horse
+{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    display: inline-table;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.footer
+{
+    text-align: center;
+	font-size: 15px;
+    font-family: Verdana, sans-serif;
+}
+
+#logo-accueil
+{
+    width: 150px;
+    height: 150px;
+}
+
+#cover
+{
+	background: url("http://howrseinfo.com/img/howrse.png") no-repeat, center;
+	height: 800px;
+	background-position: center center;
+
+}
+
+#cover-titre
+{
+	color: #41292C;
+	font-family: 'Covered By Your Grace', sans-serif;
+	font-size: 100px;
+	line-height: 120px;
+	margin: 0;
+	text-align: center;
+	top: 20%;
+}
+
+.form-admin
+{
+	font-size: 14px;
+}
+
+.logo-admin
+{
+	width: 256px;
+	height: 256px;
+}
+.admin-icone
+{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    display: inline-table;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

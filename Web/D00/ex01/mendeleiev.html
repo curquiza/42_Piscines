@@ -1,0 +1,765 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title> Mendeleïev </title>
+    <meta charset="utf-8" />
+    <style>
+        * {
+			margin:              1px;
+			padding:             0;
+			border:              0;
+			text-decoration:     none; 
+		}
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width:70px;
+            height: 70px; 
+            border: 5px solid white;
+            font-family: 'Helvetica', sans-serif;
+
+        }
+        .non-met {
+            background-color: aquamarine;
+        }
+        .met-alc {
+            background-color: orange;
+        }
+        .met-alc-terr {
+            background-color: indianred;
+        }
+        .met-trans {
+            background-color: skyblue;
+        }
+        .met-pauvre {
+            background-color: darkseagreen;
+        }
+        .metalloide{
+            background-color: lightyellow;
+        }
+        .halog{
+            background-color: mediumpurple;
+        }
+        .gaz-noble{
+            background-color: greenyellow;
+        }
+        .lanth{
+            background-color: magenta;
+        }
+        .acti{
+            background-color: dodgerblue;
+        }
+        .poids
+        {
+            text-align: right;
+            font-size: 11px;
+            padding-right: 1px
+        }
+        .elem {
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .numero
+        {   
+            font-size: 11px;
+            text-align: left;
+            padding-left: 1px; 
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align:center;">
+        <img src="https://www.wanimo.com/veterinaire/images/articles/chat/chaton-qui-miaule.jpg" alt="chaton">
+    </div>
+
+    <div contenteditable="true">
+        <!-- 1er TABLEAU -->
+        <table>
+        <!-- LIGNE 1 -->
+        <tr>
+            <td class="non-met">
+                <div class="poids"> 1.00794 </div>
+                <div class="elem"> H </div>
+                <div class="numero"> 1 </div> 
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="gaz-noble">
+                <div class="poids"> 1.00794 </div>
+                <div class="elem"> H </div>
+                <div class="numero"> 1 </div>    
+            </td>
+        </tr>
+        
+        <!-- LIGNE 2 -->
+        <tr>
+            <td class="met-alc">
+                <div class="poids"> 6.941 </div>
+                <div class="elem"> Li </div>
+                <div class="numero"> 3 </div>    
+            </td>
+            <td class="met-alc-terr">
+                <div class="poids"> 9.01218 </div>
+                <div class="elem"> Be </div>
+                <div class="numero"> 4 </div>    
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="metalloide">
+                <div class="poids"> 10.811 </div>
+                <div class="elem"> B </div>
+                <div class="numero"> 5 </div>    
+            </td>
+            <td class="non-met">
+                <div class="poids"> 12.0107 </div>
+                <div class="elem"> C </div>
+                <div class="numero"> 6 </div>    
+            </td>
+            <td class="non-met">
+                <div class="poids"> 14.0067 </div>
+                <div class="elem"> N </div>
+                <div class="numero"> 7 </div>    
+            </td>
+            <td class="non-met">
+                <div class="poids"> 15.9994 </div>
+                <div class="elem"> O </div>
+                <div class="numero"> 8 </div>    
+            </td>
+            <td class="halog">
+                <div class="poids"> 18.9984 </div>
+                <div class="elem"> F </div>
+                <div class="numero"> 9 </div>    
+            </td>
+            <td class="gaz-noble">
+                <div class="poids"> 20.1797 </div>
+                <div class="elem"> Ne </div>
+                <div class="numero"> 10 </div>    
+            </td>
+        </tr>
+        
+        <!-- LIGNE 3 -->
+        <tr>
+            <td class="met-alc">
+                <div class="poids"> 22.9898 </div>
+                <div class="elem"> Na </div>
+                <div class="numero"> 11 </div>    
+            </td>
+            <td class="met-alc-terr">
+                <div class="poids"> 24.305 </div>
+                <div class="elem"> Mg </div>
+                <div class="numero"> 12 </div>    
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="met-pauvre">
+                <div class="poids"> 26.9815 </div>
+                <div class="elem"> Al </div>
+                <div class="numero"> 13 </div>    
+            </td>
+            <td class="metalloide">
+                <div class="poids"> 28.0855 </div>
+                <div class="elem"> Si </div>
+                <div class="numero"> 14 </div>    
+            </td>
+            <td class="non-met">
+                <div class="poids"> 30.9738 </div>
+                <div class="elem"> P </div>
+                <div class="numero"> 15 </div>    
+            </td>
+            <td class="non-met">
+                <div class="poids"> 32.065 </div>
+                <div class="elem"> S </div>
+                <div class="numero"> 16 </div>    
+            </td>
+            <td class="halog">
+                <div class="poids"> 35.453 </div>
+                <div class="elem"> Cl </div>
+                <div class="numero"> 17 </div>    
+            </td>
+            <td class="gaz-noble">
+                <div class="poids"> 39.948 </div>
+                <div class="elem"> Ar </div>
+                <div class="numero"> 18 </div>    
+            </td>
+        </tr>
+        
+        <!-- LIGNE 4 -->
+        <tr>
+            <td class="met-alc">
+                <div class="poids"> 39.0983 </div>
+                <div class="elem"> K </div>
+                <div class="numero"> 19 </div>    
+            </td>
+            <td class="met-alc-terr">
+                <div class="poids"> 40.078 </div>
+                <div class="elem"> Ca </div>
+                <div class="numero"> 20 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 44.9559 </div>
+                <div class="elem"> Sc </div>
+                <div class="numero"> 21 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 47.867 </div>
+                <div class="elem"> Ti </div>
+                <div class="numero"> 22 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 50.9415 </div>
+                <div class="elem"> V </div>
+                <div class="numero"> 23 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 51.9961 </div>
+                <div class="elem"> Cr </div>
+                <div class="numero"> 24 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 54.938 </div>
+                <div class="elem"> Mn </div>
+                <div class="numero"> 25 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 55.845 </div>
+                <div class="elem"> Fe </div>
+                <div class="numero"> 26 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 58.9332 </div>
+                <div class="elem"> CO </div>
+                <div class="numero"> 27 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 58.6934 </div>
+                <div class="elem"> Ni </div>
+                <div class="numero"> 28 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 63.546 </div>
+                <div class="elem"> Cu </div>
+                <div class="numero"> 29 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 65.38 </div>
+                <div class="elem"> Zn </div>
+                <div class="numero"> 30 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 69.723 </div>
+                <div class="elem"> Ga </div>
+                <div class="numero"> 31 </div>    
+            </td>
+            <td class="metalloide">
+                <div class="poids"> 72.64 </div>
+                <div class="elem"> Ge </div>
+                <div class="numero"> 31 </div>    
+            </td>
+            <td class="metalloide">
+                <div class="poids"> 74.9216 </div>
+                <div class="elem"> As </div>
+                <div class="numero"> 33 </div>    
+            </td>
+            <td class="non-met">
+                <div class="poids"> 78.96 </div>
+                <div class="elem"> Se </div>
+                <div class="numero"> 34 </div>    
+            </td>
+            <td class="halog">
+                <div class="poids"> 79.904 </div>
+                <div class="elem"> Br </div>
+                <div class="numero"> 35 </div>    
+            </td>
+            <td class="gaz-noble">
+                <div class="poids"> 83.798 </div>
+                <div class="elem"> Kr </div>
+                <div class="numero"> 36 </div>    
+            </td>
+        </tr>
+        
+        <!-- LIGNE 5 -->
+        <tr>
+            <td class="met-alc">
+                <div class="poids"> 85.4678 </div>
+                <div class="elem"> Rb </div>
+                <div class="numero"> 37 </div>    
+            </td>
+            <td class="met-alc-terr">
+                <div class="poids"> 87.62 </div>
+                <div class="elem"> Sr </div>
+                <div class="numero"> 38 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 88.9059 </div>
+                <div class="elem"> Y </div>
+                <div class="numero"> 39 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 91.224 </div>
+                <div class="elem"> Zr </div>
+                <div class="numero"> 40 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 92.9064 </div>
+                <div class="elem"> Nb </div>
+                <div class="numero"> 41 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 95.96 </div>
+                <div class="elem"> Mo </div>
+                <div class="numero"> 42 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 98.9063 </div>
+                <div class="elem"> Tc </div>
+                <div class="numero"> 43 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 101.07 </div>
+                <div class="elem"> Ru </div>
+                <div class="numero"> 44 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 102.906 </div>
+                <div class="elem"> Rh </div>
+                <div class="numero"> 45 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 106.42 </div>
+                <div class="elem"> Pd </div>
+                <div class="numero"> 46 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 107.868 </div>
+                <div class="elem"> Ag </div>
+                <div class="numero"> 47 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 112.411 </div>
+                <div class="elem"> Cd </div>
+                <div class="numero"> 48 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 114.818 </div>
+                <div class="elem"> In </div>
+                <div class="numero"> 49 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 118.71 </div>
+                <div class="elem"> Sn </div>
+                <div class="numero"> 50 </div>    
+            </td>
+            <td class="metalloide">
+                <div class="poids"> 121.76 </div>
+                <div class="elem"> Sb </div>
+                <div class="numero"> 51 </div>    
+            </td>
+            <td class="metalloide">
+                <div class="poids"> 127.6 </div>
+                <div class="elem"> Te </div>
+                <div class="numero"> 52 </div>    
+            </td>
+            <td class="halog">
+                <div class="poids"> 126.904 </div>
+                <div class="elem"> I </div>
+                <div class="numero"> 53 </div>    
+            </td>
+            <td class="gaz-noble">
+                <div class="poids"> 131.293 </div>
+                <div class="elem"> Xe </div>
+                <div class="numero"> 54 </div>    
+            </td>
+        </tr>
+
+        <!-- LIGNE 6 -->
+        <tr>
+            <td class="met-alc">
+                <div class="poids"> 132.905 </div>
+                <div class="elem"> Cs </div>
+                <div class="numero"> 55 </div>    
+            </td>
+            <td class="met-alc-terr">
+                <div class="poids"> 137.327 </div>
+                <div class="elem"> Ba </div>
+                <div class="numero"> 56 </div>    
+            </td>
+            <td class="lanth">
+                <div class="elem"> * </div>  
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 178.49 </div>
+                <div class="elem"> Hf </div>
+                <div class="numero"> 72 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 180.948 </div>
+                <div class="elem"> Ta </div>
+                <div class="numero"> 73 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 183.84 </div>
+                <div class="elem"> W </div>
+                <div class="numero"> 74 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 186.207 </div>
+                <div class="elem"> Re </div>
+                <div class="numero"> 75 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 190.23 </div>
+                <div class="elem"> Os </div>
+                <div class="numero"> 76 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 192.217 </div>
+                <div class="elem"> Ir </div>
+                <div class="numero"> 77 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 195.084 </div>
+                <div class="elem"> Pt </div>
+                <div class="numero"> 78 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 196.967 </div>
+                <div class="elem"> Au </div>
+                <div class="numero"> 79 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 200.59 </div>
+                <div class="elem"> Hg </div>
+                <div class="numero"> 80 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 204.383 </div>
+                <div class="elem"> Tl </div>
+                <div class="numero"> 81 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 207.2 </div>
+                <div class="elem"> Pb </div>
+                <div class="numero"> 82 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 208.98 </div>
+                <div class="elem"> Bi </div>
+                <div class="numero"> 83 </div>    
+            </td>
+            <td class="metalloide">
+                <div class="poids"> 208.982 </div>
+                <div class="elem"> Po </div>
+                <div class="numero"> 84 </div>    
+            </td>
+            <td class="halog">
+                <div class="poids"> 209.987 </div>
+                <div class="elem"> At </div>
+                <div class="numero"> 85 </div>    
+            </td>
+            <td class="gaz-noble">
+                <div class="poids"> 222.018 </div>
+                <div class="elem"> Rn </div>
+                <div class="numero"> 86 </div>    
+            </td>
+        </tr>
+        
+        <!-- LIGNE 7 -->
+        <tr>
+            <td class="met-alc">
+                <div class="poids"> 223.02 </div>
+                <div class="elem"> Fr </div>
+                <div class="numero"> 87 </div>    
+            </td>
+            <td class="met-alc-terr">
+                <div class="poids"> 226.025 </div>
+                <div class="elem"> Ra </div>
+                <div class="numero"> 88 </div>    
+            </td>
+            <td class="acti">
+                <div class="elem"> ** </div>  
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 265 </div>
+                <div class="elem"> Rf </div>
+                <div class="numero"> 104 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 268 </div>
+                <div class="elem"> Db </div>
+                <div class="numero"> 105 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 272 </div>
+                <div class="elem"> Sg </div>
+                <div class="numero"> 106 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 273 </div>
+                <div class="elem"> Bh </div>
+                <div class="numero"> 107 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 276 </div>
+                <div class="elem"> Hs </div>
+                <div class="numero"> 108 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 279 </div>
+                <div class="elem"> Mt </div>
+                <div class="numero"> 109 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 278 </div>
+                <div class="elem"> Ds </div>
+                <div class="numero"> 110 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 283 </div>
+                <div class="elem"> Rg </div>
+                <div class="numero"> 111 </div>    
+            </td>
+            <td class="met-trans">
+                <div class="poids"> 285 </div>
+                <div class="elem"> Cn </div>
+                <div class="numero"> 112 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 287 </div>
+                <div class="elem"> Uut </div>
+                <div class="numero"> 113 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 289 </div>
+                <div class="elem"> Uuq </div>
+                <div class="numero"> 114 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 291 </div>
+                <div class="elem"> Uup </div>
+                <div class="numero"> 115 </div>    
+            </td>
+            <td class="met-pauvre">
+                <div class="poids"> 293 </div>
+                <div class="elem"> Uuh </div>
+                <div class="numero"> 116 </div>    
+            </td>
+            <td class="halog">
+                <div class="poids"> 294 </div>
+                <div class="elem"> Uus </div>
+                <div class="numero"> 117 </div>    
+            </td>
+            <td class="gaz-noble">
+                <div class="poids"> 294 </div>
+                <div class="elem"> Uuo </div>
+                <div class="numero"> 118 </div>    
+            </td>
+        </tr>
+    </table>
+    </div>
+    
+    <div contenteditable="true">
+        <!-- 2nd TABLEAU -->
+        <table>
+        <!-- LIGNE 1 -->
+        <tr>
+        <td></td>
+        <td></td>
+        <td class="lanth elem"> * </td>
+        <td class="lanth">
+                <div class="poids"> 138.905 </div>
+                <div class="elem"> La </div>
+                <div class="numero"> 57 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 140.116 </div>
+                <div class="elem"> Ce </div>
+                <div class="numero"> 58 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 	140.908 </div>
+                <div class="elem"> Pr </div>
+                <div class="numero"> 59 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 144.242 </div>
+                <div class="elem"> Nd </div>
+                <div class="numero"> 60 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 146.915 </div>
+                <div class="elem"> Pm </div>
+                <div class="numero"> 61 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 150.36 </div>
+                <div class="elem"> Sm </div>
+                <div class="numero"> 62 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 151.964 </div>
+                <div class="elem"> Eu </div>
+                <div class="numero"> 63 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 157.25 </div>
+                <div class="elem"> Gd </div>
+                <div class="numero"> 64 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 158.925 </div>
+                <div class="elem"> Tb </div>
+                <div class="numero"> 65 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 162.5 </div>
+                <div class="elem"> Dy </div>
+                <div class="numero"> 66 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 164.93 </div>
+                <div class="elem"> Ho </div>
+                <div class="numero"> 67 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 167.259 </div>
+                <div class="elem"> Er </div>
+                <div class="numero"> 68 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 168.934 </div>
+                <div class="elem"> Tm </div>
+                <div class="numero"> 69 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 173.054 </div>
+                <div class="elem"> Yb </div>
+                <div class="numero"> 70 </div>
+        </td>
+        <td class="lanth">
+                <div class="poids"> 174.967 </div>
+                <div class="elem"> Lu </div>
+                <div class="numero"> 71 </div>
+        </td>
+        </tr>
+        
+        <!-- LIGNE 2 -->
+        <tr>
+        <td></td>
+        <td></td>
+        <td class="acti elem"> ** </td>
+        <td class="acti">
+                <div class="poids"> 227.028 </div>
+                <div class="elem"> Ac </div>
+                <div class="numero"> 89 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 232.038 </div>
+                <div class="elem"> Th </div>
+                <div class="numero"> 90 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 231.036 </div>
+                <div class="elem"> Pa </div>
+                <div class="numero"> 91 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 238.029 </div>
+                <div class="elem"> U </div>
+                <div class="numero"> 92 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 237.048 </div>
+                <div class="elem"> Np </div>
+                <div class="numero"> 93 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 244.064 </div>
+                <div class="elem"> Pu </div>
+                <div class="numero"> 94 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 243.061 </div>
+                <div class="elem"> Am </div>
+                <div class="numero"> 95 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 247.07 </div>
+                <div class="elem"> Cm </div>
+                <div class="numero"> 96 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 247.07 </div>
+                <div class="elem"> Bk </div>
+                <div class="numero"> 97 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 251.08 </div>
+                <div class="elem"> Cf </div>
+                <div class="numero"> 98 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 252.083 </div>
+                <div class="elem"> Es </div>
+                <div class="numero"> 99 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 257.095 </div>
+                <div class="elem"> Fm </div>
+                <div class="numero"> 100 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 258.099 </div>
+                <div class="elem"> Md </div>
+                <div class="numero"> 101 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 259.101 </div>
+                <div class="elem"> No </div>
+                <div class="numero"> 102 </div>
+        </td>
+        <td class="acti">
+                <div class="poids"> 264 </div>
+                <div class="elem"> Lr </div>
+                <div class="numero"> 103 </div>
+        </td>
+        </tr>
+    </table>
+    </div>
+        
+</body>
+</html>

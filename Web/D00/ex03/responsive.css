@@ -1,0 +1,80 @@
+* {
+    margin:              1px;
+    padding:             0;
+    border:              0;
+    text-decoration:     none; 
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top : 5px;
+    }
+
+td {
+    width: 4%;
+    height: 4%; 
+    border: 1px solid white;
+    font-family: 'Helvetica', sans-serif;
+    }
+
+.non-met {
+            background-color: aquamarine;
+        }
+
+.met-alc {
+            background-color: orange;
+        }
+
+.met-alc-terr {
+            background-color: indianred;
+        }
+
+.met-trans {
+            background-color: skyblue;
+        }
+
+.met-pauvre {
+            background-color: darkseagreen;
+        }
+
+.metalloide{
+            background-color: lightyellow;
+        }
+
+.halog{
+            background-color: mediumpurple;
+        }
+
+.gaz-noble{
+            background-color: greenyellow;
+        }
+
+.lanth{
+            background-color: magenta;
+        }
+
+.acti{
+    background-color: dodgerblue;
+}
+
+.poids{
+    text-align: right;
+    font-size: 0.8vw;
+    padding-right: 1px
+}
+
+.elem {
+    font-size: 1.6vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.numero {   
+    font-size: 0.8vw;
+    text-align: left;
+    padding-left: 1px; 
+}

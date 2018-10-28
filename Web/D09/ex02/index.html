@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+    <head> 
+        <title> To do or not to do </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower" />
+        <script type="text/javascript" src="todo.js"></script>
+        <style>
+            html {
+                font-family: "Verdana";
+                font-size: 14px;
+                background-color: honeydew;
+            }
+            .todo {
+                border: 2px solid lightgrey;
+                margin : 10px;
+                padding: 10px;
+                padding-left: 25px;
+                background-color: seashell;
+                width: 800px;
+                font-family: "Indie Flower", Verdana;
+                font-size: 18px;
+                border-radius: 20px;
+            }
+            #button-new {
+                font-size: 30px;
+                font-weight: bold;
+                margin-left: 10px;
+                margin-top: 10px;
+                width: 75px;
+            }
+        </style>
+    </head>
+    <body onload="ft_load_cookies()">
+        <input type="submit" name="new" value="New" onclick="ft_add()" size="20" id="button-new"/>
+        <div id="ft_list" style="margin-top: 20px;">     
+        </div>
+    </body>
+</html>

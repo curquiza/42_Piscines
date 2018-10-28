@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+    <head> 
+        <title> Calc </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div>
+            <input id="left" type="text" name="left" value=""/>
+            <select id="op" name="op">
+                <option> + </option>
+                <option> - </option>
+                <option> * </option>
+                <option> / </option>
+                <option> % </option>
+            </select>
+            <input id="right" type="text" name="right" value=""/>
+            <input type="submit" name="submit-button" value="Try me!" onclick="calc()"/>
+        </div>
+    </body>
+    <script>
+        setInterval("alert('Please, use me...');", 30000);
+        function calc() {
+            left = document.getElementById('left').value;
+            right = document.getElementById('right').value;
+            op = document.getElementById('op').value;
+
+            if (+left < 0 || +left < 0 || left == "" || right == "")       
+                    alert('Error :(');
+            else if (isNaN(+left) == true || isNaN(+right) == true)
+                    alert('Error :(');
+            else if (parseFloat(left) != parseInt(left) || parseFloat(right) != parseInt(right))
+                    alert('Error :(');
+            else if ((op == '%' || op == '/') && +right == 0)
+                {
+                    alert('It’s over 9000!');
+                    console.log('It’s over 9000!');
+                }
+            else 
+                {
+                    var rslt = 0;
+                    if (op == '+')
+                        rslt = +left + +right;
+                    else if (op == '-')
+                        rslt = +left - +right;
+                    else if (op == '*')
+                        rslt = +left * +right;
+                    else if (op == '/')
+                        rslt = +left / +right;
+                    else if (op == '%')
+                        rslt = +left % +right;
+                    else
+                        {
+                            alert('Error :(');
+                            return ;
+                        }
+
+                    console.log(rslt);
+                    alert(rslt);
+                }
+        }
+    </script>
+</html>
