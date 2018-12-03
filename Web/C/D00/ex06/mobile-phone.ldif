@@ -1,4 +1,0 @@
-dn: uid=curquiza,ou=2016_paris,ou=2016,ou=paris,ou=people,dc=42,dc=fr
-changetype: modify
-add: mobile
-mobile: 0661016877
